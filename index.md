@@ -29,13 +29,13 @@ _Bachelor of science in Computer Science, 2007 - 2011_
 **Kotlin, Java, Android, Swift, iOS**
 
 ## Industry Knowledge
-**Android Development, iOs Development, Web Development, Strategic Planning, Research**
+Android Development, iOs Development, Web Development, Strategic Planning, Research
 
 ## Tools and Technologies
-**JavaSE, Microsoft Office, JavaScript, Java Swing, Swift, Spring Framework, Eclipse, jQuery, AngularJS, Microsoft SQL Server, Oracle SQL Developer, SQLite, Red Hat Linux, Windows, Ubuntu, IntelliJ IDEA, Realm Dataase, Mac OS**
+JavaSE, Microsoft Office, JavaScript, Java Swing, Swift, Spring Framework, Eclipse, jQuery, AngularJS, Microsoft SQL Server, Oracle SQL Developer, SQLite, Red Hat Linux, Windows, Ubuntu, IntelliJ IDEA, Realm Dataase, Mac OS
 
 ## Interpersonal Skills
-**Leadership, Customer Service, Team Player**
+Leadership, Customer Service, Team Player
 
 ## Projects
 ### My LSGH Reader (Android)
