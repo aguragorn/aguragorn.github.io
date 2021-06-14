@@ -26,4 +26,29 @@ _Cormant Technologies Inc., July 2011 - Present_
 _Bachelor of science in Computer Science, 2007 - 2011_
 
 ## Skills
-__Kotlin, Java, Android, Swift, iOS__
+**Kotlin, Java, Android, Swift, iOS**
+
+## Industry Knowledge
+**Android Development, iOs Development, Web Development, Strategic Planning, Research**
+
+## Tools and Technologies
+**JavaSE, Microsoft Office, JavaScript, Java Swing, Swift, Spring Framework, Eclipse, jQuery, AngularJS, Microsoft SQL Server, Oracle SQL Developer, SQLite, Red Hat Linux, Windows, Ubuntu, IntelliJ IDEA, Realm Dataase, Mac OS**
+
+## Interpersonal Skills
+** Leadership, Customer Service, Team Player**
+
+## Projects
+### My LSGH Reader
+A mobile application developed for La Salle Greenhills, a top notch school in the Philippines. It allows school administration to register students and assign them books for the school year. Students can then download and read the e-books on their devices. Features include a dictionary for selected words, searching books for words or phrases and jumping directly to the page, saving text highlights, changing font size and style, night and day mode, and creating bookmarks.
+
+### DPS
+Currently in support phase DPS or DCE Printing Spooler, is a windows service written in Java which interfaces between 2 applications via IBM Webspehere MQ and SFTP.
+
+### World Checkpoint Capture
+Currently in support phase WCC is an enterprise web application developed for DHL that deals with configurable dynamic forms, scanning barcodes, translating and sending configured form responses into SOAP messages to another service, encryption, AngularJS, Spring framework, Tomcat, installation as windows service, IZpack installer.
+
+### Powerform (iOS)
+A web and mobile platform that allows supervisors/managers using the web app to send/receive forms to and from agents on the mobile app. Features include configurable forms, configurable database of built in data, image capture in the form and as an attachment, e-signature and form locking, auto-dispatch to agents, offline mode, agent location tracking, calculated fields based on other fields, dynamic form behavior via form and field scripts, barcode scanning, file attachments, instant messaging, sms integration with one time code verification.
+
+### Powerform (Android)
+A web and mobile platform that allows supervisors/managers using the web app to send/receive forms to and from agents on the mobile app. Features include configurable forms, configurable database of built in data, image capture in the form and as an attachment, e-signature and form locking, auto-dispatch to agents, offline mode, agent location tracking, calculated fields based on other fields, dynamic form behavior via form and field scripts, barcode scanning, file attachments, instant messaging, sms integration with one time code verification.
