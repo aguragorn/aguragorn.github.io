@@ -1,5 +1,5 @@
 ## Who Am I
-An experienced Android Developer with iOS, Web, and Sever Application development mixed in.
+An experienced Android Developer with iOS, Web, and Sever Application development mixed in. Self motivated but also great with working in teams and with people. Values high quality work and is highly motivated by challenges and new learnings.
 
 Worked on different architectures (MVP+Clean, MVVM, experiments with Kotlin Multiplatform), and databases (Ormlite, Realm, Objectbox, Firebase).
 
@@ -15,13 +15,7 @@ Has rooted and installed custom ROMs on all of my phones.
 
 Main developer on a web app deployed with tomcat.
 
-Worked on a project that uses SoftwareAG Integration Server.
-
-Self motivated but also great with working in teams and with people.
-
-Values high quality work.
-
-Highly motivated by challenges and new learnings. 
+Worked on a project that uses SoftwareAG Integration Server. 
 
 ## Experience
 ### Senior Software Design Engineer
