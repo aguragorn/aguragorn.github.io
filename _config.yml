@@ -5,7 +5,7 @@ google_analytics:
 show_downloads: false
 theme: jekyll-theme-minimal
 email: edwardjames.remo@criptext.com
-mobile: &plus;639054656650
+mobile: \002B639054656650
 
 gems:
   - jekyll-mentions
