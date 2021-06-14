@@ -1,8 +1,8 @@
-title: Aguragorn.GitHub.io
+title: Edward James Remo
 logo: https://media-exp3.licdn.com/dms/image/C5603AQECeoSjoLUX0w/profile-displayphoto-shrink_400_400/0/1623655775536?e=1629331200&v=beta&t=PApBrgJuKDpaMyr6--NzQPeSiFEbg8VJtiJ2XEaVBnc
 description: 
 google_analytics: 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
 
 gems:
