@@ -1,0 +1,77 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            {% assign img_dir = "portfolio" %}
+                            {% if post.tags contains "interest" %}{% assign img_dir = "interest" %}{% endif %}
+                            <img src="img/{{img_dir}}/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+
+                            {% if post.description %}
+                            <p>{{ post.description }}</p>
+                            {% endif %}
+                            
+                            {% if post.client || post.project-date || post.category %}
+                            <ul class="list-inline item-details">
+                                {% if post.client %}
+                                <li>Client:
+                                    <strong><a href="{{ post.client-url }}">{{ post.client }}</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+
+                                {% if post.project-date %}
+                                <li>Date:
+                                    <strong><a href="#">{{ post.project-date }}</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+
+                                {% if post.category %}
+                                <li>Service:
+                                    <strong><a href="#">{{ post.category }}</a>
+                                    </strong>
+                                </li>
+                                {% endif %}
+                            </ul>
+                            {% endif %}
+
+                            <!-- Begin App URLs -->
+                            {% if post.app-url %}
+                            <p>
+                                Home Page: <strong><a href="{{ post.app-url }}">{{ post.app-url }}</a></strong>
+                            </p>
+                            {% endif %}
+                            
+                            {% if post.playstore-url %}
+                            <div>
+                                <a href="{{ post.playstore-url }}"><img src="/img/playstore.png" class="dl-btn"/></a>
+                            </div>
+                            {% endif %}
+                            
+                            {% if post.appstore-url %}
+                            <div>
+                                <a href="{{ post.appstore-url }}"><img src="/img/appstore.png" class="dl-btn"/></a>
+                            </div>
+                            {% endif %}
+                            <!-- End App URLs -->
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
