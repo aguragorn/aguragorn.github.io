@@ -4,7 +4,7 @@ modal-id: 2
 date: 2014-07-17
 img: lsgh-reader.png
 alt: My LSGH Reader Logo
-project-date: Android-January 2018 / iOS-August 2018
+project-date: Android - January 2018 / iOS - August 2018
 client: La Salle Greenhills
 client-url: https://www.lsgh.edu.ph
 playstore-url: https://play.google.com/store/apps/details?id=com.cormanttech.ortus.lsgh

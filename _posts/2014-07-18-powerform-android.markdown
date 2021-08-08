@@ -4,7 +4,7 @@ modal-id: 1
 date: 2021-08-01
 img: powerform.png
 alt: powerform android logo
-project-date: Android-April 2014 / iOS-July 2017
+project-date: Android - April 2014 / iOS - July 2017
 client: Cormant Technologies Inc.
 client-url: https://cormanttech.com
 app-url: https://www.powerform.co
