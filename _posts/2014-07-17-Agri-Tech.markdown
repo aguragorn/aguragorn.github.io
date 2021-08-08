@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: agri_tech.png
+alt: LettucEat Corporation Logo
+description: Passionate about the environment and sustainability, I have dabbled into Agriculture and the technologies that will move it forward. I am an incorporator of a hydroponics farm, that produces leafy greens like lettuce, chinese kale, grand rapids, arugula, and basil. I am also interested in building next a mushroom farm, a soy farm and maybe upgrade into aquaponics to farm fish as well.
+tags: [interest]
+---
