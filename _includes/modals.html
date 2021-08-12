@@ -16,8 +16,35 @@
                             <hr class="star-primary">
                             {% assign img_dir = "portfolio" %}
                             {% if post.tags contains "interest" %}{% assign img_dir = "interest" %}{% endif %}
-                            <img src="img/{{img_dir}}/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-
+                            
+                            {% if post.slides.size > 0 %}
+                                <div id="post_slides" class="carousel slide" data-ride="carousel">
+                                    
+                                    <div class="carousel-inner" role="listbox" style="padding: 0px;">
+                                        {% assign slide_index = 0 %}
+                                        {% for slide in post.slides %}
+                                        {% assign slide_index = slide_index | plus: 1 %}
+                                        <div class="item {% if slide_index == 1 %}active{% endif %}">
+                                            <img class="img-fluid" src="img/{{img_dir}}/{{slide}}" />
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                    
+                                    <a class="left carousel-control" href="#post_slides" role="button" data-slide="prev">
+                                        <span class="icon-prev"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#post_slides" role="button" data-slide="next">
+                                        <span class="icon-next"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            
+                            {% else %}
+                                <img src="img/{{img_dir}}/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            
+                            {% endif %}
+                            
                             {% if post.description %}
                             <p>{{ post.description }}</p>
                             {% endif %}
@@ -65,6 +92,16 @@
                                 <a href="{{ post.appstore-url }}"><img src="/img/appstore.png" class="dl-btn"/></a>
                             </div>
                             {% endif %}
+
+                            <div>
+                            {% if post.ig_username %}
+                                <a href="https://www.instagram.com/{{ post.ig_username }}" class="social-link"><i class="fa-instagram"></i>&nbsp;@{{ post.ig_username }}</a>
+                            {% endif %}
+
+                            {% if post.eyeem_username %}
+                                <a href="https://www.eyeem.com/u/{{ post.eyeem_username}}" class="social-link"><i class="fa-eyeem-o"></i>&nbsp;@{{ post.eyeem_username }}</a>
+                            {% endif %}
+                            </div>
                             <!-- End App URLs -->
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

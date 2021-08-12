@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 4
+modal-id: 6
 date: 2014-07-20
 img: custom_rom.png
 alt: Lineage OS Logo

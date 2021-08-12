@@ -56,7 +56,7 @@ address:
   - line: Philippines, 1811
 
 # Credits content
-credits: 'This website uses Freelancer, an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Site template by <a href="https://github.com/StartBootstrap/freelancer-jekyll">Freelancer</a>, Icon fonts by <a href="https://github.com/ForkAwesome/Fork-Awesome">Fork-Awesome</a>'
 
 # Build settings
 markdown: kramdown
