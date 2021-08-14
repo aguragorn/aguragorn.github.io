@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: 8
+date: 2014-07-15
+img: nature.png
+alt: Newly germinated plant with two leaves
+description: A nature lover and sustainability enthusiast, I try to conciously consider my environmental impact in my decisions. I held on to my smartphones 'til they can no longer be repaired, prefer products in glass jars than in disposable plastic, at one point made ecobricks with bottles filled with single use plastic (it's hard to sustain). I am also growing edible plants in my balcony (tomato, garlic, curled parsley and calamansi).
+tags: [interest]
+---
