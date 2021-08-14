@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: 9
+date: 2014-07-14
+img: gaming.png
+alt: Game Pad
+description: Computer games are what made me a software developer. I did not end up with a game my portfolio (yet), but games definitely influenced my life. Puzzle, platformer, MOBA, RPG, MMORPG, Casual, Tower Defence, Racing, FPS, NFT Games, I'm sure I've played a game in any category you throw at me. Outside the world of software I also very much enjoy card and board games. Game-nights anyone?!
+tags: [interest]
+---
